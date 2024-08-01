@@ -1,0 +1,27 @@
+@import "base.less";
+@import "typography.less";
+
+
+// Definindo variáveis
+@primary-color: #333;
+@secondary-color: #666;
+@background-color: #f0f0f0;
+@font-family: Arial, sans-serif;
+@font-size-large: 24px;
+@font-size-small: 14px;
+
+// Utilizando variáveis
+body {
+    font-family: @font-family;
+    background-color: @background-color;
+}
+
+h1 {
+    color: @primary-color;
+    font-size: @font-size-large;
+}
+
+p {
+    color: @secondary-color;
+    font-size: @font-size-small;
+}
